@@ -1,0 +1,583 @@
+* {
+  margin: 0;
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: red;
+}
+
+
+}
+
+#logo {
+  width: 100px;
+  height: 30px;
+}
+
+/* Style for nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+  position: fixed;
+  width: 90vw;
+  z-index: 100;
+
+}
+
+#nav-links {
+  display: flex;
+  column-gap: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+}
+
+/* Style for hero section */
+#hero {
+  background-image: url(../assets/images/restaurant\ back.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+
+}
+
+#hero-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+#subtext-one {
+  font-size: 60px;
+}
+
+#subtext-two {
+  font-size: 80px;
+}
+
+.menu-button {
+  background-color: white;
+  color: red;
+  border: none;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 5px;
+
+
+}
+
+.menu-button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+/* Style for about section */
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 0 150px 100px;
+  height: 200px;
+  width: 100vw;
+  align-items: center;
+  background-color: #EFEFEF;
+
+}
+.about-link {
+  font-family: sans-serif;
+  justify-content: center;
+  font-size: 12px;
+  align-items: center;
+}
+#about-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 10%;
+padding: 0px 15px 30px;
+  margin-right: 490px;
+
+}
+#about-text {
+  margin-left: 200px;
+}
+
+#about-text p {
+
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  padding: 30px 50px 30px 10px;
+  
+}
+
+
+#about-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about-link span:first-child {
+  margin-right: 10px;
+}
+
+
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.sub-header span:nth-child(1) {
+  font-size: 30px;
+  color: red;
+}
+
+.sub-header span :nth-child(2) {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-bottom: 30px;
+}
+
+#discover {
+  background-image: url(../assets/images/pexels-pixabay-260922.jpg);
+  width: 100vw;
+  height: 30vw;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+}
+
+.sub-header-discover {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+#subtext-three {
+  font-size: 40px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 140px;
+
+}
+
+#subtext-four {
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+
+.pato-container {
+  display: flex;
+
+}
+
+.pato {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 300px;
+  padding-bottom: 130px;
+  
+}
+
+.restaurant-font {
+  text-align: center;
+  margin: 0px 0px 20px;
+  
+}
+.food-font {
+  text-align: center;
+  
+  margin: 0px 0px 20px;
+}
+.wine-font {
+  text-align: center;
+  
+  margin: 0px 0px 20px;
+}
+
+
+.learn-more {
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+
+#restaurant-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+}
+#food-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+}
+
+#wine-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+
+}
+#subtext-romance-sentence {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+#subtext-food-sentence {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#subtext-wine-sentence {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#menu {
+  background-color: #F5F2EC;
+  width: 100vw;
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 80vw;
+}
+
+.grid-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.group1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 520px;
+ 
+  
+}
+/* .lunch-text {
+  position: relative;
+  z-index: 1; 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff; 
+  border-radius: 5px; 
+  text-decoration: none; /
+  
+}*/
+
+.lunch-text:hover {
+  background-color: #e91b00; 
+}
+
+
+
+.group2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 250px;
+
+}
+
+.group3 {
+  height: 250px;
+}
+
+#video-sec {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+
+}
+
+#video {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+
+
+}
+
+#video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: inherit;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#reservation {
+  background-color: #EFEFEF;
+  padding: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#reservation-img {
+ width: auto;
+ height: auto;
+  border-radius: 10px;
+  margin-left: 100px;
+
+  
+}
+
+.sub-header-video {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+#subtext-five {
+  font-size: 40px;
+  display: flex;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 0px;
+
+}
+
+#subtext-six {
+  font-size: 40px;
+  color: black;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+
+}
+
+#input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+
+}
+
+#input-grid input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: #EFEFEF;
+  margin: 10px;
+
+}
+.book-button {
+  border-radius: 10px; 
+  font-size: 16px;
+  background-color: #000; 
+  color: #fff; 
+  padding: 15px 25px; 
+  border: none; 
+  cursor: pointer; 
+}
+
+.book-button:hover {
+  background-color: #333; 
+}
+
+
+.swiper-slide img {
+  border-radius: 50%;
+  max-height: 110px;
+  max-width: 110px;
+  border: 4px solid #fe0707;
+
+
+}
+
+#subtext-eight {
+  padding-top: 120px;
+}
+
+
+
+#subtext-nine {
+  padding-bottom: 30px;
+}
+
+
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.review-content p {
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+
+#name-review {
+  padding-top: 30px;
+}
+/*#sub-blog-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+
+}*/
+
+.sub-header-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
+}
+.blog{
+  display: block;
+ text-align: center;
+ padding-bottom: 130px;
+}
+
+.blog-container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ row-gap: 90%;
+ /* padding-bottom: 150px; */
+ 
+}
+.blog-image-container {
+   /* display: flex;
+ flex-direction: row;
+  margin-left: 30px; */
+  /* overflow: hidden; */
+}
+
+#latest-news {
+  margin-top: 200px;
+  
+}
+
+
+.continue-reading {
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+
+#wine-blog-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+
+}
+
+#eggs-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+
+}
+
+#wedding-image {
+  width: 400px;
+  padding: 30px;
+  border-radius: 14%;
+}
+#wine-blog-font {
+  text-align: center;
+  margin: 0px 0px 20px;
+}
+#eggs-font {
+  text-align: center;
+  margin: 0px 0px 20px;
+}
+#wedding-font {
+  text-align: center;
+  margin: 0px 0px 20px;
+}
+#subtext-sentence {
+padding-top: 20px;
+padding-bottom: 20px;
+}
