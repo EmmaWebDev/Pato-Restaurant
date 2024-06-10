@@ -27,8 +27,6 @@ body {
 }
 
 
-}
-
 #logo {
   width: 100px;
   height: 30px;
@@ -121,20 +119,23 @@ header {
   background-color: #EFEFEF;
 
 }
+
 .about-link {
   font-family: sans-serif;
   justify-content: center;
   font-size: 12px;
   align-items: center;
 }
+
 #about-image {
   width: 350px;
   height: 350px;
   border-radius: 10%;
-padding: 0px 15px 30px;
+  padding: 0px 15px 30px;
   margin-right: 490px;
 
 }
+
 #about-text {
   margin-left: 200px;
 }
@@ -146,7 +147,7 @@ padding: 0px 15px 30px;
   font-size: 15px;
   color: black;
   padding: 30px 50px 30px 10px;
-  
+
 }
 
 
@@ -155,6 +156,7 @@ padding: 0px 15px 30px;
   align-items: center;
   justify-content: center;
 }
+
 #about-link span:first-child {
   margin-right: 10px;
 }
@@ -227,22 +229,24 @@ padding: 0px 15px 30px;
   position: relative;
   padding-top: 300px;
   padding-bottom: 130px;
-  
+
 }
 
 .restaurant-font {
   text-align: center;
   margin: 0px 0px 20px;
-  
+
 }
+
 .food-font {
   text-align: center;
-  
+
   margin: 0px 0px 20px;
 }
+
 .wine-font {
   text-align: center;
-  
+
   margin: 0px 0px 20px;
 }
 
@@ -259,6 +263,7 @@ padding: 0px 15px 30px;
   padding: 30px;
   border-radius: 14%;
 }
+
 #food-image {
   width: 400px;
   padding: 30px;
@@ -271,15 +276,18 @@ padding: 0px 15px 30px;
   border-radius: 14%;
 
 }
+
 #subtext-romance-sentence {
   padding-top: 20px;
   padding-bottom: 20px;
 
 }
+
 #subtext-food-sentence {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 #subtext-wine-sentence {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -313,9 +321,10 @@ padding: 0px 15px 30px;
   grid-row-start: 1;
   grid-row-end: 3;
   height: 520px;
- 
-  
+
+
 }
+
 /* .lunch-text {
   position: relative;
   z-index: 1; 
@@ -332,7 +341,7 @@ padding: 0px 15px 30px;
 }*/
 
 .lunch-text:hover {
-  background-color: #e91b00; 
+  background-color: #e91b00;
 }
 
 
@@ -385,12 +394,12 @@ padding: 0px 15px 30px;
 }
 
 #reservation-img {
- width: auto;
- height: auto;
+  width: auto;
+  height: auto;
   border-radius: 10px;
   margin-left: 100px;
 
-  
+
 }
 
 .sub-header-video {
@@ -443,18 +452,19 @@ padding: 0px 15px 30px;
   margin: 10px;
 
 }
+
 .book-button {
-  border-radius: 10px; 
+  border-radius: 10px;
   font-size: 16px;
-  background-color: #000; 
-  color: #fff; 
-  padding: 15px 25px; 
-  border: none; 
-  cursor: pointer; 
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
 }
 
 .book-button:hover {
-  background-color: #333; 
+  background-color: #333;
 }
 
 
@@ -496,6 +506,7 @@ padding: 0px 15px 30px;
 #name-review {
   padding-top: 30px;
 }
+
 /*#sub-blog-header {
   display: flex;
   flex-direction: column;
@@ -509,25 +520,27 @@ padding: 0px 15px 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center; 
+  text-align: center;
 }
-.blog{
+
+.blog {
   display: block;
- text-align: center;
- padding-bottom: 130px;
+  text-align: center;
+  padding-bottom: 130px;
 }
 
 .blog-container {
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
- row-gap: 90%;
- /* padding-bottom: 150px; */
- 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  row-gap: 90%;
+  /* padding-bottom: 150px; */
+
 }
+
 .blog-image-container {
-   /* display: flex;
+  /* display: flex;
  flex-direction: row;
   margin-left: 30px; */
   /* overflow: hidden; */
@@ -535,7 +548,7 @@ padding: 0px 15px 30px;
 
 #latest-news {
   margin-top: 200px;
-  
+
 }
 
 
@@ -565,19 +578,45 @@ padding: 0px 15px 30px;
   padding: 30px;
   border-radius: 14%;
 }
+
 #wine-blog-font {
   text-align: center;
   margin: 0px 0px 20px;
 }
+
 #eggs-font {
   text-align: center;
   margin: 0px 0px 20px;
 }
+
 #wedding-font {
   text-align: center;
   margin: 0px 0px 20px;
 }
+
 #subtext-sentence {
-padding-top: 20px;
-padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+/* Footer*/
+
+/* Style for the footer */
+.footer {
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 20px 0; 
+  bottom: 0; 
+  width: 100%; 
+}
+
+.footer a {
+  color: #1da1f2; 
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline; 
+}
+
